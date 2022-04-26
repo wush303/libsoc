@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 rocket = "0.5.0-rc.1"
 uuid = { version = "0.8", features = ["v4"] }
-diesel = { version = "1.4.4", features = ["postgres"] }
+sqlx = { version = "0.5", features = [ "runtime-tokio-rustls" ] }
+dotenv = "0.15.0"
